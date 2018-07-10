@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\MirrorController.cs" />
     <Compile Include="Assets\Scripts\Orchestrator.cs" />
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/ace/Trashland/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
