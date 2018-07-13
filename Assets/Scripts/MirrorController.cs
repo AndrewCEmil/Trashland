@@ -14,15 +14,15 @@ public class MirrorController : MonoBehaviour {
 		
 	}
 
-    void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision collision)
     {
         Debug.Log("TRIGGED");
-        if (other.name == "Floor")
+        if (collision.collider.name == "Floor")
         {
             return;
         }
 
-        Rigidbody otherRb = other.GetComponent<Rigidbody>();
+        Rigidbody otherRb = collision.collider.GetComponent<Rigidbody>();
         otherRb.velocity = otherRb.velocity * -1f;
     }
 }
