@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Orchestrator : MonoBehaviour {
@@ -22,5 +23,6 @@ public class Orchestrator : MonoBehaviour {
     public void TargetHit()
     {
         //TODO
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
