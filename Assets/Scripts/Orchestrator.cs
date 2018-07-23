@@ -18,4 +18,9 @@ public class Orchestrator : MonoBehaviour {
             startBallRb.useGravity = true;
         }
 	}
+
+    public void TargetHit()
+    {
+        //TODO
+    }
 }

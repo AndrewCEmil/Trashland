@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\CannonController.cs" />
     <Compile Include="Assets\Scripts\MirrorController.cs" />
     <Compile Include="Assets\Scripts\Orchestrator.cs" />
+    <Compile Include="Assets\Scripts\TargetController.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/ace/Trashland/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
